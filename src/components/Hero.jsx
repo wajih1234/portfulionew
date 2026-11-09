@@ -43,7 +43,7 @@ export default function Hero() {
               <Download size={16} /> Download CV
             </a>
             <a
-              href="#works"
+              href="#projects"
               className="inline-flex items-center gap-2 rounded-full border border-white/20 px-6 py-3 text-sm font-semibold transition hover:bg-white/10"
             >
               View projects <ArrowRight size={16} />

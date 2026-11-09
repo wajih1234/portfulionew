@@ -3,7 +3,9 @@ const links = [
  
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
+  {label:"Community", href:'#Community'},
   { label: "Contact", href: "#contact" },
+  
 ]
 
 export default function Navbar() {

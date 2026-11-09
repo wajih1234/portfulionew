@@ -1,0 +1,86 @@
+// To add a project: copy one block, change the values.
+// repo / live / report can be null: the button is hidden automatically.
+
+export const projects = [
+  {
+    id: 1,
+    year: "2026",
+    category: "AI · RAG & GraphRAG",
+    title: "LexTN (PFE)",
+    description:
+      "Legal chatbot over the official documents of the JORT. Two RAG pipelines, classic (Qdrant, PDFPlumber) and GraphRAG (Neo4j), compared on 117 questions. Deployed with Docker Compose.",
+    tags: ["RAG", "GraphRAG", "Qdrant", "Neo4j", "PDFPlumber", "Docker Compose"],
+    repo: "https://github.com/wajih1234/legaltun",
+    live: null,
+    report: "/reports/lextn.pdf",
+  },
+  {
+    id: 2,
+    year: "2026",
+    category: "AI · Multi-Agent",
+    title: "AI Research Team",
+    description:
+      "Multi-agent system built with LangGraph and FastAPI, deployed on Render and Vercel.",
+    tags: ["LangGraph", "FastAPI", "Multi-Agent", "Render", "Vercel"],
+    repo: "https://github.com/wajih1234/ai-research-team",
+    live: null,
+    report: null,
+  },
+  {
+    id: 3,
+    year: "2026",
+    category: "AI · RAG",
+    title: "Hybrid RAG with Evaluation",
+    description:
+      "RAG with LangChain and BM25: hybrid retrieval, query monitoring, and a RAGAS evaluation with baseline scores.",
+    tags: ["LangChain", "BM25", "RAGAS", "Hybrid Retrieval"],
+    repo: "https://github.com/wajih1234/rag-langchain-bm25",
+    live: null,
+    report: null,
+  },
+  {
+    id: 4,
+    year: "2025",
+    category: "SaaS · Freelance",
+    title: "Paycom",
+    description:
+      "Invoicing app built for a real client: roles, stock, transfers, loans and PDF generation.",
+    tags: ["React", "SaaS", "PDF", "Full-Stack"],
+    repo: "https://github.com/wajih1234/Paycom",
+    live: null,
+    report: "/reports/paycom.pdf",
+  },
+  {
+    id: 5,
+    year: "2025",
+    category: "Web App · AI",
+    title: "ENSTAB Chatbot",
+    description: "Chatbot web app for ENSTAB.",
+    tags: ["React", "Chatbot", "AI"],
+    repo: "https://github.com/wajih1234/ENSTAB_BOT",
+    live: "https://enstab-bot.vercel.app/",
+    report: "/reports/enstabot.pdf",
+  },
+  {
+    id: 6,
+    year: "2024",
+    category: "Web App",
+    title: "Biblio",
+    description: "Library management web app.",
+    tags: ["React", "Full-Stack"],
+    repo: "https://github.com/wajih1234/frontend-bibl",
+    live: "https://frontend-bibl.vercel.app/",
+    report: "/reports/biblio.pdf",
+  },
+  {
+    id: 7,
+    year: "2025",
+    category: "Web App",
+    title: "Quiz App",
+    description: "Quiz web application.",
+    tags: ["React", "Quiz"],
+    repo: "https://github.com/wajih1234/quiz-app",
+    live: null,
+    report: null,
+  },
+]

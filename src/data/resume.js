@@ -1,22 +1,40 @@
 export const skills = [
   {
     title: "AI / Data",
-    items: ["Scikit-learn", "Pandas", "NumPy", "NLP", "CNN", "RAG", "GraphRAG", "Neo4j", "Embeddings", "Prompt Engineering"],
+    items: [
+      "Scikit-learn", "Pandas", "NumPy", "PyTorch", "NLP", "CNN",
+      "RAG", "GraphRAG",   "RAGAS",
+      "LangChain", "LangGraph", "Multi-Agent Systems", "Embeddings",
+      "Prompt Engineering",
+    ],
+  },
+  {
+    title: "Data Engineering",
+    items: ["SQL", "PySpark", "Databricks", "ETL / ELT", "Apache Kafka", "Web Scraping", "Streamlit"],
   },
   {
     title: "Programming",
-    items: ["Python", "R", "C++", "Matlab", "JavaScript", "Java", "React", "Node.js", "Express.js", "Flask", "Spring Boot", "REST APIs"],
+    items: ["Python", "R", "C++", "Matlab", "JavaScript", "Java"],
+  },
+  {
+    title: "Backend & Web",
+    items: [
+      "React", "Tailwind CSS", "Node.js", "Express.js", "Flask", "FastAPI",
+       "REST APIs", "JWT Auth", "Socket.io",
+    ],
   },
   {
     title: "Databases",
-    items: ["MongoDB", "MySQL", "Qdrant", "Neo4j"],
+    items: ["MongoDB", "MySQL", "SQLite", "Qdrant", "Neo4j"],
   },
   {
-    title: "DevOps",
-    items: ["Docker", "Docker Compose", "Docker Hub", "Image optimization", "Nginx"],
+    title: "DevOps & Tools",
+    items: [
+      "Docker", "Docker Compose", "Docker Hub", "Image optimization", "Nginx",
+      "Kubernetes (basics)", "GitHub Actions CI/CD", "Git", "Render", "Vercel", "n8n",
+    ],
   },
 ]
-
 export const experience = [
   {
     role: "Engineering Intern (PFE)",

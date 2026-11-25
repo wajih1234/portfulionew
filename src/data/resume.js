@@ -1,6 +1,6 @@
 export const skills = [
   {
-    title: "AI / Data",
+    title: "AI ",
     items: [
       "Scikit-learn", "Pandas", "NumPy", "PyTorch", "NLP", "CNN",
       "RAG", "GraphRAG",   "RAGAS",
